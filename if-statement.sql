@@ -1,0 +1,8 @@
+SET SERVEROUTPUT ON;
+
+BEGIN
+    IF TRUE 
+        THEN
+        DBMS_OUTPUT.PUT_LINE('wew');
+    END IF;
+END;
